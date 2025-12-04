@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Software Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💼</text></svg>">
+</head>
+<body>
+    <!-- Background animasi partikel -->
+    <div id="particles-js"></div>
+    
+    <!-- Cursor kustom dengan jejak -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Header & Navigasi -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">HANN PORTFOLIO</span>
+                <div class="logo-dot"></div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li><a href="#projects" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+                <li><a href="#visitor" class="nav-link">Pengunjung</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="typing-text">Halo, Saya <span class="highlight">Software Engineer</span></h1>
+                <p class="subtitle">Saya membuat <span class="typing-dynamic"></span></p>
+                <p class="description">Seorang profesional engineering dengan pengalaman 3 tahun dalam pengembangan web Dan IoT solusi digital inovatif.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Project</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-border-animation"></div>
+                    <div class="image-placeholder">
+                        <img src="images/profil.jpeg" alt="Foto Profil Saya" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll</div>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+    
+    <!-- Tentang Saya -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">01</span>
+                <span>Tentang</span>
+                <span class="highlight">Saya</span>
+                <div class="title-line"></div>
+            </h2>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Membawa Ide ke <span class="highlight">Kehidupan Digital</span></h3>
+                <p>Saya seorang software engineer yang bersemangat dalam menciptakan aplikasi yang bermanfaat, dan memadukan desain yang matang dengan rekayasa (engineering) yang solid. Saya menciptakan pengalaman yang tidak hanya tampak hebat, tetapi juga dibangun dengan cermat untuk performa dan usabilitas.<br><br>
+
+Saat ini, saya adalah CEO di perusahaan A, dengan spesialisasi di bidang aksesibilitas. Saya memastikan platform kami memenuhi standar aksesibilitas web dan praktik terbaik (best practices) untuk menghadirkan pengalaman pengguna yang inklusif.<br><br>
+
+Dulu, saat saya masih sekolah di SMK, saya lebih suka mata pelajaran Robotic, IoT, dan Website. Di Robotic dan IoT ada proses merakit yang membuat saya masuk jurusan RPL. Selain mata pelajaran itu, saya kurang suka atau kurang minat. Saya lebih sering mengerjakan tugas itu di rumah karena saya lebih fokus dan merasa santai tanpa memikirkan jam akan habis.<br><br>
+
+Di waktu luang, saya biasanya bermain game seperti Delta Force, GTA 5 Roleplay. Saya tipe orang yang kalau ada yang mengajak, saya ikut; kalau tidak ada yang mengajak, saya diam.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50">0</div>
+                        <div class="stat-label">Project Selesai</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="35">0</div>
+                        <div class="stat-label">Klien Puas</div>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn btn-secondary">Download CV</a>
+            </div>
+            
+            <div class="about-image">
+                <div class="floating-card with-photo">
+                    <div class="card-photo">
+                        <img src="images/prestasi.jpeg" alt="Foto Profil About">
+                    </div>
+                    <div class="card-content">
+                        <h4>Prestasi Saya</h4>
+                        <ul>
+                            <li>Juara Harapan 3 Lomba Programing Arduino</li>
+                            <br>
+                            <li>Coming Soon</li>
+                        </ul>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Keahlian -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">02</span>
+                <span>Keahlian</span>
+                <div class="title-line"></div>
+            </h2>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Pengembangan</h3>
+                <div class="skill-item">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="95"></div>
+                    </div>
+                    <div class="skill-percent">95%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="20"></div>
+                    </div>
+                    <div class="skill-percent">20%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">React</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85"></div>
+                    </div>
+                    <div class="skill-percent">85%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Node.js</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
+                    </div>
+                    <div class="skill-percent">80%</div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h3><i class="fas fa-paint-brush"></i> Desain</h3>
+                <div class="skill-item">
+                    <div class="skill-name">UI/UX Design</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="90"></div>
+                    </div>
+                    <div class="skill-percent">90%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Figma</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="85"></div>
+                    </div>
+                    <div class="skill-percent">85%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Adobe Creative Suite</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="80"></div>
+                    </div>
+                    <div class="skill-percent">80%</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Motion Graphics</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" data-level="75"></div>
+                    </div>
+                    <div class="skill-percent">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">03</span>
+                <span>Project</span>
+                <span class="highlight">Dan Game</span>
+                <div class="title-line"></div>
+            </h2>
+        </div>
+        
+        <div class="projects-container">
+            <!-- PROJECT 1 - Arduino Distance Meter -->
+            <div class="project-card" data-project-id="1">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="view-project">Lihat Project</span>
+                    </div>
+                    <div class="project-border-animation"></div>
+                    <div class="project-category">Arduino</div>
+                    <img src="images/contoh.jpeg" alt="Pengukur Jarak Arduino" class="project-screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Pengukur jarak Dengan Arduino</h3>
+                    <p class="project-description">alat pengukur jarak secara akurat jarak ditampilkan di lcd.</p>
+                    <div class="project-tags">
+                        <span>Arduino</span>
+                        <span>Ultrasonic Sensor</span>
+                        <span>LCD 16x2 I2c</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PROJECT 2 - Robot Avoider -->
+            <div class="project-card" data-project-id="2">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="view-project">Lihat Project</span>
+                    </div>
+                    <div class="project-border-animation"></div>
+                    <div class="project-category">Arduino</div>
+                    <img src="images/fotopkk.jpeg" alt="Robot Avoider" class="project-screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Robot Avoider</h3>
+                    <p class="project-description">Robot berjalan lalu menghindar/Berbelok saat ada halangan didepanya .</p>
+                    <div class="project-tags">
+                        <span>Arduino</span>
+                        <span>Chassis Mobil</span>
+                        <span>Motor Driver</span>
+                        <span>Ultrasonic Sensor</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PROJECT 3 - Banking Dashboard -->
+            <div class="project-card" data-project-id="3">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="view-project">Lihat Project</span>
+                    </div>
+                    <div class="project-border-animation"></div>
+                    <div class="project-category">ESP-32</div>
+                    <img src="images/pkkcover.jpeg" alt="Smart Home IoT" class="project-screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Smart Home Berbasis IoT</h3>
+                    <p class="project-description">Lampu Yang Bisa Dinyalakan Dari HP lewat ApK blynk.</p>
+                    <div class="project-tags">
+                        <span>ESP-32</span>
+                        <span>Relay 12V</span>
+                        <span>Lcd Oled </span>
+                        <span>Lampu</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PROJECT 4 - Travel Blog -->
+            <div class="project-card" data-project-id="4">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="view-project">Lihat Project</span>
+                    </div>
+                    <div class="project-border-animation"></div>
+                    <div class="project-category">Website</div>
+                    <img src="images/cover.png" alt="Game Web" class="project-screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Game Berbasis Web</h3>
+                    <p class="project-description">Website yang berisi Game Simpel tapi mengasah otak dan daya ingat</p>
+                    <div class="project-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 5 - web Portfolio  -->
+            <div class="project-card" data-project-id="5">
+                <div class="project-image">
+                    <div class="image-overlay">
+                        <span class="view-project">Lihat Project</span>
+                    </div>
+                    <div class="project-border-animation"></div>
+                    <div class="project-category">Website</div>
+                    <img src="images/COVER_P.png" alt="Portfolio Web" class="project-screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Portfolio Web</h3>
+                    <p class="project-description">Portfolio website dengan desain modern dan responsif</p>
+                    <div class="project-tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="view-more">
+            <a href="#" class="btn btn-primary">Lihat Semua Project</a>
+        </div>
+    </section>
+    
+    <!-- Kontak -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">04</span>
+                <span>Kontak</span>
+                <div class="title-line"></div>
+            </h2>
+            <p class="section-subtitle">Mari Berkolaborasi!</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Saya selalu terbuka untuk diskusi tentang project baru, peluang kolaborasi, atau sekadar berbagi ide kreatif.</h3>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>ralifreyhan@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Telepon</h4>
+                            <p>+62 822 3317 8554</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Lokasi</h4>
+                            <p>Indonesia, Jawa Timur, Lumajang, Kab. Pasirian, Kebonan</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>KUNJUNGI SOSMED SAYA SILAHKAN CLICK ICON DIBAWAH INI</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Reyhan808?tab=stars" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.tiktok.com/@reyhan_a.r25?is_from_webapp=1&sender_device=pc" target="_blank" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/ralifreyhan?igsh=MXV5M3ljZzZreTZicQ==" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@alifreyhanreyhan8844?si=F7RK5lCGrK1SA177" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <div class="contact-message">
+                    <h3>Hubungi Saya</h3>
+                    <p>Untuk diskusi project atau kolaborasi, silakan isi formulir di bagian <strong>Daftar Pengunjung</strong> di bawah.</p>
+                    <p>Saya akan menghubungi Anda segera melalui email atau WhatsApp.</p>
+                    <div class="contact-cta">
+                        <a href="#visitor" class="btn btn-primary">
+                            <i class="fas fa-arrow-down"></i> Isi Form Pengunjung
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Daftar Pengunjung -->
+    <section id="visitor" class="section">
+        <div class="section-header">
+            <h2 class="section-title">
+                <span class="title-number">05</span>
+                <span>Daftar</span>
+                <span class="highlight">Pengunjung</span>
+                <div class="title-line"></div>
+            </h2>
+            <p class="section-subtitle">Isi disini daftar pengunjung website ini</p>
+        </div>
+
+        <div class="visitor-content">
+            <!-- Bagian Kiri: Formulir -->
+            <div class="form-section">
+                <div class="form-card">
+                    <h3 class="form-card-title">
+                        <i class="fas fa-clipboard-list"></i> Formulir Pengunjung
+                    </h3>
+                    
+                    <form id="visitorForm" class="visitor-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="visitorName">
+                                    <i class="fas fa-user"></i> Nama Kamu
+                                </label>
+                                <input type="text" id="visitorName" name="name" 
+                                       placeholder="Masukkan nama lengkap" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="visitorAge">
+                                    <i class="fas fa-birthday-cake"></i> Umur
+                                </label>
+                                <input type="number" id="visitorAge" name="age" 
+                                       placeholder="Masukkan umur" min="1" max="120" required>
+                                <div class="error-message" id="age-error"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="visitorEmail">
+                                <i class="fas fa-envelope"></i> Email
+                            </label>
+                            <input type="email" id="visitorEmail" name="email" 
+                                   placeholder="contoh@email.com" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="visitorNote">
+                                <i class="fas fa-sticky-note"></i> Note / Keterangan
+                            </label>
+                            <textarea id="visitorNote" name="note" rows="3" 
+                                      placeholder="Pesan atau komentar Anda..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary btn-save">
+                                <i class="fas fa-save"></i> Add / Save
+                            </button>
+                            <button type="button" id="clearFormBtn" class="btn btn-secondary">
+                                <i class="fas fa-broom"></i> Clear Form
+                            </button>
+                        </div>
+                    </form>
+
+                    <div class="data-actions">
+                        <button type="button" id="exportCsvBtn" class="btn-action btn-export">
+                            <i class="fas fa-file-export"></i> Export CSV
+                        </button>
+                        <button type="button" id="importCsvBtn" class="btn-action btn-import">
+                            <i class="fas fa-file-import"></i> Import CSV
+                            <input type="file" id="csvFileInput" accept=".csv" style="display: none;">
+                        </button>
+                        <button type="button" id="clearAllBtn" class="btn-action btn-clear">
+                            <i class="fas fa-trash-alt"></i> Clear All Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bagian Kanan: Tabel Data -->
+            <div class="table-section">
+                <div class="table-card">
+                    <div class="table-header">
+                        <h3 class="table-title">
+                            <i class="fas fa-users"></i> Data Pengunjung
+                            <span class="visitor-count" id="visitorCount">(0)</span>
+                        </h3>
+                        <div class="table-controls">
+                            <button id="refreshBtn" class="btn-icon" title="Refresh">
+                                <i class="fas fa-sync-alt"></i>
+                            </button>
+                            <button id="sortBtn" class="btn-icon" title="Sortir">
+                                <i class="fas fa-sort-alpha-down"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="table-container">
+                        <table id="visitorTable" class="visitor-table">
+                            <thead>
+                                <tr>
+                                    <th class="th-no">NO</th>
+                                    <th class="th-name">NAMA</th>
+                                    <th class="th-age">UMUR</th>
+                                    <th class="th-email">EMAIL</th>
+                                    <th class="th-note">NOTE</th>
+                                    <th class="th-date">TANGGAL</th>
+                                    <th class="th-action">AKSI</th>
+                                </tr>
+                            </thead>
+                            <tbody id="visitorTableBody">
+                                <!-- Data akan dimasukkan di sini oleh JavaScript -->
+                                <tr class="no-data">
+                                    <td colspan="7">
+                                        <div class="empty-state">
+                                            <i class="fas fa-users-slash"></i>
+                                            <p>Belum ada data pengunjung.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="table-footer">
+                        <div class="pagination-info">
+                            Menampilkan <span id="currentCount">0</span> dari <span id="totalCount">0</span> data
+                        </div>
+                        <div class="pagination">
+                            <button id="prevPage" class="btn-pagination" disabled>
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <span class="page-number">Halaman <span id="currentPage">1</span></span>
+                            <button id="nextPage" class="btn-pagination" disabled>
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">HANN PORTFOLIO</span>
+                <div class="logo-dot"></div>
+            </div>
+            
+            <p class="footer-text">Menciptakan solusi digital inovatif sejak 2020.</p>
+            
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">Tentang</a>
+                <a href="#skills">Keahlian</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Kontak</a>
+                <a href="#visitor">Pengunjung</a>
+            </div>
+            
+            <p class="copyright">&copy; 2024 HANN PORTFOLIO. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal untuk Project Details -->
+    <div class="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            
+            <div class="modal-header">
+                <h2 class="modal-title">Project Details</h2>
+                <div class="modal-subtitle">
+                    <span class="modal-category">Arduino</span>
+                    <span class="modal-date">2024</span>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <!-- Carousel untuk gambar dokumentasi -->
+                <div class="docs-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="images/contoh.jpeg" alt="Project Documentation 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/LEDKK2.jpeg" alt="Project Documentation 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/LEDKKK3.jpeg" alt="Project Documentation 3">
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-prev">‹</button>
+                    <button class="carousel-next">›</button>
+                    
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                
+                <!-- Deskripsi lengkap -->
+                <div class="modal-description">
+                    <h3>Tentang Project Ini</h3>
+                    <p>Deskripsi lengkap tentang project, teknologi yang digunakan, tantangan yang dihadapi, dan solusi yang diterapkan.</p>
+                    
+                    <div class="tech-stack">
+                        <h4>Tech Stack:</h4>
+                        <div class="stack-tags">
+                            <span>Arduino</span>
+                            <span>Sensor HC-SR04</span>
+                            <span>LCD I2C</span>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-features">
+                        <h4>Fitur Utama:</h4>
+                        <ul>
+                            <li>Pengukuran jarak real-time</li>
+                            <li>Tampilan LCD yang informatif</li>
+                            <li>Alarm untuk jarak tertentu</li>
+                            <li>Portable dan mudah digunakan</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tombol Aksi -->
+                <div class="modal-actions">
+                    <a href="https://youtu.be/qhOIErhSq5A?si=kispOclxR2a-bz1N" target="_blank" class="btn-youtube">
+                        <i class="fab fa-youtube"></i> Tonton Demo di YouTube
+                    </a>
+                    <a href="https://github.com/your-username/project-repo" target="_blank" class="btn-github">
+                        <i class="fab fa-github"></i> Lihat Source Code
+                    </a>
+                    <a href="#" target="_blank" class="btn-demo">
+                        <i class="fas fa-external-link-alt"></i> Kunjungi Live Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Konfirmasi Hapus -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Konfirmasi</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="confirmMessage">Apakah Anda yakin ingin menghapus semua data?</p>
+            </div>
+            <div class="modal-footer">
+                <button id="confirmCancel" class="btn btn-secondary">Batal</button>
+                <button id="confirmOk" class="btn btn-danger">Ya, Hapus</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
